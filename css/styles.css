@@ -133,13 +133,6 @@ body {
     text-decoration: none;
 }
 
-.features-list .text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
 /* Team */
 .section.team {
     background-color: var(--secondary-bg-color);
@@ -202,8 +195,8 @@ body {
     cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button.portfolio:hover,
+.button.portfolio:focus {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
 }
